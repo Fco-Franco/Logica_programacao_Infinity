@@ -1,1 +1,0 @@
-Infinity_Logica_programacao
