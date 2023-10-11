@@ -1,4 +1,3 @@
-# https://www.invertexto.com/315aula2logica
 # O .upper() transforma em maiusculo, e o .lower() em minusculo.
 # O .strip() retira os espaços antes e depois do texto digitado.
 
