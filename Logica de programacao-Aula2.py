@@ -16,8 +16,10 @@ if pular != "p":
 
     if num1 == num2:
         print("Números iguais")
+        print("")
     else:
         print("Números diferentes")
+        print("")
 else:
     print("Pulou tarefa")
     print("")
@@ -25,6 +27,7 @@ else:
 
 #region MAIOR DE IDADE
 print("==================================================================================")
+print ("");
 print ("Verificação de maioridade.");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
@@ -33,12 +36,12 @@ if pular != "p":
     print("")
     idade1 = int(input("Digite a idade: "));
     print("")
-
     if idade1 >= 18:
         print(idade1, " anos. Maior de idade")
+        print("")
     else:
         print(idade1, " anos. Menor de idade")
-    print("")
+        print("")
 else:
     print("Pulou tarefa")
     print("")
@@ -77,7 +80,7 @@ if pular != "p":
     print("")
     print("elif")
     print("")
-    cor = input("Digite uma cor. Digite: VERMELHO, VERDE, AMARELO.").upper().strip();
+    cor = input("Digite uma cor. Digite: VERMELHO, VERDE, AMARELO: ").upper().strip();
     print("")
     # O .upper() transforma em maiusculo, e o .lower() em minusculo.
     # O .strip() retira os espaços antes e depois do texto digitado.
@@ -102,7 +105,6 @@ print ("Verificação de número inteiro de 0 a 10.");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
 if pular != "p":
-    print("")
     print("Condicionais")
     print("")
     num4 = int(input("Digite uma Numero inteiro: "));
@@ -126,15 +128,17 @@ print("")
 if pular != "p":
     print("Condicionais")
     print("")
-    sair = str(input("Deseja sair? (S/N) ")).lower().strip();
+    sair = str(input("Deseja sair? (S/N) : ")).lower().strip();
     print("")
     if sair == "s" or sair == "n":
         print("Operação válida")
         print("")
         if sair == "s":
             print(f"Digitou {(sair)}. Tchau meu fi, vá com Deus")
+            print("")
         else: 
             print(f"Digitou {(sair)}. Continue usando o programa")
+            print("")
     else:
         print("Operação inválida")
         print("")
@@ -174,15 +178,12 @@ else:
 
 #region Exercicio 01
 print("==================================================================================")
+print("")
 print ("Imprimir o maior Número.");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
 if pular != "p":  
     print("Digite dois números inteiros e imprima o maior deles.")
-    print("")
-    numEx1_1 = int(input("Digite dois números : "))
-
-    print("Digite 2 numeros para comparar:")
     print("")
     numEx1_1 = int(input("Digite o primeiro número : "));
     print("")
@@ -190,10 +191,13 @@ if pular != "p":
     if numEx1_1>numEx1_2:
         print("")
         print("Numero 1 Maior")
+        print("")
     elif numEx1_1<numEx1_2:
         print("")
         print("Numero 2 Maior")
+        print("")
     else:
+        print("")
         print("Numeros iguais")
         print("")
 else:
@@ -203,6 +207,7 @@ else:
 
 #region Exercicio 02
 print("==================================================================================")
+print ("");
 print ("Verificação de valor positivo/negativo");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
@@ -227,6 +232,7 @@ else:
 
 #region Exercicio 03
 print("==================================================================================")
+print ("");
 print ("Verificação de masculino/feminino");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
@@ -261,6 +267,7 @@ else:
 
 #region Exercicio 04
 print("==================================================================================")
+print ("");
 print ("Verificação de vogal/consoante");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
@@ -300,6 +307,7 @@ else:
 
 #region Exercicio 05
 print("==================================================================================")
+print ("");
 print ("Verificação de média de notas aluno");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
@@ -336,8 +344,10 @@ else:
 
 #region Exercicio 06
 print("==================================================================================")
+print ("");
 print ("Verificação maior número.");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
+print ("");
 if pular != "p": 
     print("")
     print("Faça a leia três números e mostre o maior deles.")
@@ -356,6 +366,7 @@ else:
 
 #region Exercicio 07
 print("==================================================================================")
+print ("");
 print ("Verificação menor e maior número.");
 pular = input("Deseja pular(digite p), ou qualquer coisa para continuar.").lower().strip();
 print("")
