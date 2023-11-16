@@ -130,5 +130,3 @@ dadosMedias = {
 
 aluno.update(dadosMedias)
 
-
-
