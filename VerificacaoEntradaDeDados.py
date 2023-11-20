@@ -1,4 +1,18 @@
 
+# region verificacao de entrada de 3 numeros inteiros e positivos ====================IMPORTANT====================
+for _ in range(3):
+    while True:
+        try:
+            num = int(input("Digite um número inteiro positivo: "))
+            if num > 0:
+                break  # Sai do loop se o número for inteiro e positivo
+            else:
+                print("Por favor, digite um número inteiro positivo.")
+        except ValueError:
+            print("Por favor, digite um número inteiro válido.")
+    print(f"Vc digitou: {num}")
+# endregion 
+
 # region verificacao de entrada tipo int ====================IMPORTANT====================
 # Loop infinito para solicitar ao usuário que digite um número inteiro positivo
 while True:
